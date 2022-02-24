@@ -9,6 +9,8 @@ public class Player implements PlayerInterface {
 
   /**
    * Class responsible for managing all Player features.
+   *
+   * @see PlayerInterface
    */
   public Player(InetSocketAddress address, int port) {
     this.address = address;

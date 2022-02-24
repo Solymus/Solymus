@@ -1,5 +1,7 @@
 package com.github.solymus.block.info;
 
+import com.github.solymus.block.BlockID;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -11,7 +13,7 @@ public @interface BlockInfo {
 
   String name();
 
-  int id();
+  BlockID id();
 
   int meta() default 0;
 

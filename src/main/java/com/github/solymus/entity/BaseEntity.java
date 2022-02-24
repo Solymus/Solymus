@@ -4,4 +4,5 @@ public abstract class BaseEntity {
 
     public BaseEntity() {
     }
+
 }

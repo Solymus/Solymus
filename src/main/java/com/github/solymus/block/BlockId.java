@@ -1,6 +1,6 @@
 package com.github.solymus.block;
 
-public enum BlockID {
+public enum BlockId {
 
     AIR,
     STONE,

@@ -1,6 +1,6 @@
 package com.github.solymus.material;
 
-public enum MaterialID {
+public enum MaterialId {
 
     IRON_SHOVEL,
     IRON_PICKAXE

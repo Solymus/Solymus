@@ -13,7 +13,7 @@ public abstract class Material {
         this.materialInfo = this.getClass().getAnnotation(MaterialInfo.class);
         if (isNull(this.materialInfo))
             throw new NullPointerException(
-                    String.format("The Material [%s] needs an annotation of type com.github.solymus.material.info.MaterialInfo.class!",
+                    String.format("The Material [%s] needs an annotation of type [com.github.solymus.material.info.MaterialInfo.class]!",
                             this.getClass().getSimpleName()));
     }
 

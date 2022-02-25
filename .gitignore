@@ -27,3 +27,6 @@ hs_err_pid*
 .classpath
 .factorypath
 .project
+
+# IntelliJ IDEA settings
+.idea

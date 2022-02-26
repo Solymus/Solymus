@@ -13,7 +13,7 @@ public @interface BlockInfo {
 
   String name();
 
-  BlockId id();
+  int id();
 
   int meta() default 0;
 

@@ -1,0 +1,10 @@
+com/github/solymus/server/Server.class
+com/github/solymus/player/PlayerInterface.class
+com/github/solymus/utils/Utils.class
+com/github/solymus/Solymus.class
+com/github/solymus/logger/LogLevel.class
+com/github/solymus/logger/ILogger.class
+com/github/solymus/block/info/BlockInfo.class
+com/github/solymus/player/Player.class
+com/github/solymus/block/Block.class
+com/github/solymus/logger/MainLogger.class

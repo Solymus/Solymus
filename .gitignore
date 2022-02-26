@@ -29,4 +29,4 @@ hs_err_pid*
 .project
 
 # IntelliJ IDEA settings
-.idea
+.idea/

@@ -1,11 +1,11 @@
 package com.github.solymus.block;
 
-public enum BlockId {
+public interface BlockId {
 
-    AIR,
-    STONE,
-    GRASS,
-    DIRT,
-    COBBLESTONE
+    int AIR = 0;
+    int STONE = 1;
+    int GRASS = 2;
+    int DIRT = 3;
+    int COBBLESTONE = 4;
 
 }

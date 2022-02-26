@@ -22,10 +22,12 @@ public class MainLogger implements ILogger {
 
     instance = this;
     this.hasAnsi = ANSI;
+    AnsiConsole.systemInstall();
   }
 
   @Override
   public void log(LogLevel level, String message) {
+
     Ansi logMessage = new Ansi();
     Date date = Calendar.getInstance().getTime();
     DateFormat format = new SimpleDateFormat("hh:mm:ss");

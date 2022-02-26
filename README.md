@@ -1,6 +1,6 @@
 ### Solymus - An Minecraft:BE server software
 
-- Solymus is a api for making minecraft bedrock edition servers written in Java
+- Solymus is an server software for making minecraft bedrock edition servers written in Java
 
 :warning: **WARNING** :warning:
 > The api is `under development`, doesn't have any realase of this API, don't use!

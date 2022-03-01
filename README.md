@@ -1,9 +1,9 @@
-### Solymus - An Minecraft:BE server software
+### Solymus - An Minecraft:BE Server Software
 
-- Solymus is an server software for making minecraft bedrock edition servers written in Java
+- Solymus is an software for making Minecraft Bedrock Edition servers written in Java.
 
 :warning: **WARNING** :warning:
-> The api is `under development`, doesn't have any realase of this API, don't use!
+> The plugin API is `under development`, doesn't have any realase of this API, don't use!
 
 #### Building
 To build the Solymus JAR file, you need [Maven](https://maven.apache.org/) and [Git](https://git-scm.com/) installed in your device

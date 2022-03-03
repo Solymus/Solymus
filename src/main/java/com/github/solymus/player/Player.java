@@ -4,8 +4,8 @@ import java.net.InetSocketAddress;
 
 public class Player implements PlayerInterface {
 
-  private InetSocketAddress address;
-  private int port;
+  private final InetSocketAddress address;
+  private final int port;
 
   /**
    * Class responsible for managing all Player features.

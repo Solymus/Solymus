@@ -9,4 +9,6 @@ public class SkinData {
     public static final int SKIN_128_64_SIZE = 128 * 64 * PIXEL_SIZE;
     public static final int SKIN_128_128_SIZE = 128 * 128 * PIXEL_SIZE;
 
+    // todo: finalize this omfg ...
+
 }

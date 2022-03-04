@@ -37,15 +37,20 @@
       <version>2.4.0</version>
     </dependency>
     <dependency>
-      <groupId>network.ycc</groupId>
-      <artifactId>raknet-server</artifactId>
-      <version>0.8-SNAPSHOT</version>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+      <version>1.30</version>
     </dependency>
-    <dependency>
-      <groupId>network.ycc</groupId>
-      <artifactId>raknet-client</artifactId>
-      <version>0.8-SNAPSHOT</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>network.ycc</groupId>-->
+<!--      <artifactId>raknet-server</artifactId>-->
+<!--      <version>0.8-SNAPSHOT</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>network.ycc</groupId>-->
+<!--      <artifactId>raknet-client</artifactId>-->
+<!--      <version>0.8-SNAPSHOT</version>-->
+<!--    </dependency>-->
     <dependency>
       <groupId>org.jetbrains</groupId>
       <artifactId>annotations-java5</artifactId>

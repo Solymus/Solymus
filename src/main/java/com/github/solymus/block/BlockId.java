@@ -2,10 +2,10 @@ package com.github.solymus.block;
 
 public interface BlockId {
 
-    int AIR = 0;
-    int STONE = 1;
-    int GRASS = 2;
-    int DIRT = 3;
-    int COBBLESTONE = 4;
+    Integer AIR = 0;
+    Integer STONE = 1;
+    Integer GRASS = 2;
+    Integer DIRT = 3;
+    Integer COBBLESTONE = 4;
 
 }

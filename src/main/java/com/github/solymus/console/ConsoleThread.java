@@ -14,14 +14,15 @@ public class ConsoleThread extends Thread {
 
   @Override
   public void run() {
-    try {
-      String line = this.console.readLine();
-
-      if (line.equals("stop")) {
-        this.interrupt();
+    while (true) {
+      try {
+        String line = this.console.readLine();
+        if (line.equals("stop")) {
+          this.interrupt();
+        }
+      } catch (Exception e) {
+        e.printStackTrace();
       }
-    } catch (Exception e) {
-      e.printStackTrace();
     }
   }
 

@@ -46,11 +46,13 @@ public class Console {
   }
 
   public String readLine() {
-    try {
-      return this.reader.readLine(this.prompt);
-    } catch (Exception e) {
-      return "";
+    if (!this.isReading) {
+      this.isReading = true;
+      String line = this.reader.readLine(this.prompt);
+      this.isReading = false;
+      return line;
     }
+    return "";
   }
 
 }

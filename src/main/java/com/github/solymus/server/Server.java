@@ -1,6 +1,7 @@
 package com.github.solymus.server;
 
 import com.github.solymus.logger.MainLogger;
+import com.whirvis.jraknet.server.RakNetServer;
 
 public class Server {
 
@@ -12,7 +13,12 @@ public class Server {
 
     this.logger = logger;
 
-    logger.info("This need have ANSI!");
+    logger.info("Some tests, hi!!!!");
+    try {
+      logger.info(RakNetServer.class.getName());
+    } catch (Exception e) {
+      logger.exception(e);
+    }
   }
 
   public MainLogger getLogger() {

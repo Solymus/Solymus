@@ -11,7 +11,7 @@ public class Configuration {
 
     private ConfigurationType type = ConfigurationType.DETECT;
 
-    private boolean isCorrect = false;
+    private boolean correct = false;
     private File file;
 
     /**
@@ -21,8 +21,12 @@ public class Configuration {
      */
     public Configuration(ConfigurationType type) {
         this.type = type;
-        this.isCorrect = true;
+        this.correct = true;
         this.configurationSection = new ConfigurationSection();
+    }
+
+    public boolean isCorrect() {
+        return correct;
     }
 
     public Configuration() {
@@ -65,7 +69,7 @@ public class Configuration {
 
     public void reload() {
         this.configurationSection.clear();
-        this.isCorrect = false;
+        this.correct = false;
         if (this.file == null)
             throw new IllegalStateException("Failed to load Configuration file. File Object is undefined.");
         this.load(this.file.toString(), this.type);

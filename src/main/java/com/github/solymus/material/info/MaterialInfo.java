@@ -1,7 +1,5 @@
 package com.github.solymus.material.info;
 
-import com.github.solymus.material.MaterialId;
-
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

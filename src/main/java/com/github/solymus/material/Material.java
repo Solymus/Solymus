@@ -1,9 +1,8 @@
 package com.github.solymus.material;
 
-import com.github.solymus.material.info.MaterialInfo;
-import com.github.solymus.utils.Utils;
-
 import static com.github.solymus.utils.Utils.isNull;
+
+import com.github.solymus.material.info.MaterialInfo;
 
 public abstract class Material {
 

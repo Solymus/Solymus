@@ -1,7 +1,5 @@
 package com.github.solymus.block.info;
 
-import com.github.solymus.block.BlockId;
-
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

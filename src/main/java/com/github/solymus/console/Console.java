@@ -1,8 +1,5 @@
 package com.github.solymus.console;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 import org.jline.reader.LineReader;
 import org.jline.reader.LineReaderBuilder;
 
@@ -17,6 +14,10 @@ public class Console {
 
   // TODO: Create class Command
   // TODO: private Map<String, Command> commands;
+
+  public static Console getInstance() {
+    return instance;
+  }
 
   public Console() {
     instance = this;

@@ -1,6 +1,8 @@
 package com.github.solymus.entity.hostile;
 
-public class Blaze {
+import com.github.solymus.entity.Entity;
+
+public class Blaze extends Entity {
 
     /**
      * https://minecraft.fandom.com/wiki/Blaze

@@ -1,8 +1,5 @@
 package com.github.solymus;
 
-import com.github.solymus.logger.MainLogger;
-import com.github.solymus.server.Server;
-
 public class Solymus {
 
   public static boolean ANSI = true;
@@ -18,8 +15,8 @@ public class Solymus {
       }
     }
 
-    MainLogger logger = new MainLogger(ANSI);
-    Server server = new Server(logger);
+    // MainLogger logger = new MainLogger(ANSI);
+    // Server server = new Server(logger);
 
     // TODO: Add an "Server#start()" here
   }

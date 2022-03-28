@@ -3,7 +3,7 @@
 - Solymus is an software for making Minecraft Bedrock Edition servers written in Java.
 
 :warning: **WARNING** :warning:
-> The plugin API is `under development`, doesn't have any realase of this API, don't use!
+> The plugin API is `under development`, don't try use it!
 
 #### Building
 To build the Solymus JAR file, you need [Maven](https://maven.apache.org/) and [Git](https://git-scm.com/) installed in your device
